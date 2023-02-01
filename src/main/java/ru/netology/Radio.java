@@ -51,11 +51,6 @@ public class Radio {
         }
     }
 
-    public void increaseVolume50p() {
-        int target = currentVolume * 3 / 2;
-        setCurrentVolume(target);
-    }
-
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume = currentVolume - 1;
